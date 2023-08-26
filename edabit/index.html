@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdaBIt Problems</title>
+</head>
+<body>
+  <script>
+
+  // <!-- Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10. 
+
+  function addUp(num) {
+    console.log(input);
+    let sum = 0;
+    for (var i = 1; i <= input; i++)
+  {
+    let index = i + sum;
+    sum = index
+    console.log(index)
+    debugger
+  }
+  }
+  let num = 4 
+  addUp(num);
+
+
+
+  //same problem useing recursive method 
+
+  function ipAddition(input, index = 1, sum = 0) {
+  debugger
+  if (index === input) {
+    sum += index;
+    console.log(sum);
+    return sum;
+  } else {
+    sum += index;
+    return ipAddition(input, index + 1, sum);
+  }
+}
+var number = 4;
+ipAddition(number);
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//Write a function that takes an integer minutes and converts it to seconds.
+
+
+function getSeconds (minutes) {
+  let seconds = minutes * 60;
+  console.log("seconds: ", seconds)
+}
+minutes = 3;
+getSeconds(minutes)
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//Create a function that takes a number as an argument, increments the number by +1 and returns the result
+
+function increment(number) {
+  let result = number+1;
+  console.log("IncrementedNumber" , result);
+}
+let number = 10;
+increment(number)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+function minmax(Array){
+  let min = 0;
+  var maxn = 0;
+  for(let i = 0; i < Array.length; i++)
+  {
+    if(Array[i] > min)
+    // debugger
+    {
+      var max = Array[i];
+      // min  = max;
+      return max;
+    }
+    if (Array[i] < maxn)
+    {
+      var maxn = Array[i];
+      return maxn;
+    }
+  }
+}
+let values = [4,1,5,7];
+minmax(values)
+
+</script>
+</body>
+</html>

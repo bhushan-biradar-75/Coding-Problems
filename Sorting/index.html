@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <script>
+
+// const array = ["ganesh" ,"a", "bhushan" , "bhushan" , "bhushan" , "bhushan" , "ganesh" , "sam" , "bhushan" , "ram"]
+// let result = array.sort(console.log("a",a , "n" , n))
+// console.log("result", result)
+
+
+
+
+
+    //    calcAverage  = (score1,score2,score3,score4,score5,score6) => {
+    //         let cskAverage = (score1+score2+score3)/3
+    //         let miAverage = (score4 +score5+score6)/3
+    //         console.log(cskAverage)
+    //         console.log(miAverage)
+    //         if(cskAverage > miAverage) {
+    //              console.log("CSK win the match")
+    //        }
+    //        else{
+    //         console.log("mi win the match")
+            
+    //        }           
+    //     }
+    //     calcAverage(0,77,11,15,22,22)
+
+// const sumofnno = (no) => {
+    // console.log(no)
+    // let no = [2,3,4,5]
+    // let sum = no
+    // for (let i = 0; i < no.length; i+1)
+//     {
+//         console.log("first",no[i])
+//         let storeindex = no[i] 
+//         // for(let j = 0; j < no.length; j++)
+//         // {
+//         //     console.log("j--------------->",no[j] + no[i])
+//         // }
+//     }
+// // }
+// // sumofnno([2,3,4,5])
+// console.log("ddd")
+
+
+// function a()
+
+
+// console.log("first")
+
+
+// let array = [1,2,3,4,5];
+
+// for(i = 0 ; i < array.length ; i++)
+// {
+//     let max = ""
+//     for(j = 0 ; j < array.length ; j++)
+//     {
+//         if(array[i] < array[j])
+
+//         {
+//             max = array[j]
+//         }
+//         // console.log("x: " ,x);
+//         // let c = 
+//         console.log("xxx",max)
+//     }
+// }
+
+
+// max number in arrry
+//     const arr = [2, 10,3, 5, 8, 3,20];
+//     let max = 20;
+//     for (i = 0; i < arr.length; i++) {
+//       if (arr[i] > max) {
+//         max = arr[i];
+//       }
+//     }
+// console.log("max = " ,max);
+
+// const arr = [2, 3, 5, 10, 8, 3];
+// let sum = 0;
+// debugger
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+// console.log("sum = " + sum);
+
+
+// function test(date)
+// {
+//     console.log(date)
+//     var month = date;
+//     console.log(typeof month)
+//     // var date = date.getDate();
+//     console.log(date)
+//     // console.log(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours())
+//     if(month == "2014-05-22")
+//     {
+//         console.log("callll")
+//     } else {
+//         console.log("nothing")
+//     }
+// }
+// let check = new Date()
+// console.log(check)
+// test("2014-05-22")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let data = [
+    {
+        currencyName: "Euro",
+        currencyCode: "EUR",
+        currencySymbol: "€",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: true,
+        "balance": 44.58,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#8364;",
+        "exchangeSupportedCurrencies": "AUD,BGN,CAD,CHF,CNY,CZK,DKK,GBP,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "102417057",
+        "isDefaultCurrency": false,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Euro",
+        currencyCode: "EUR",
+        currencySymbol: "€",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 82.88,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#8364;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,GBP,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100338657",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Bank Transfer"
+    },
+    {
+        currencyName: "Euro",
+        currencyCode: "EUR",
+        currencySymbol: "€",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#8364;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,GBP,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100338653",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "hdbshu"
+    },
+    {
+        currencyName: "Euro",
+        currencyCode: "EUR",
+        currencySymbol: "€",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#8364;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,GBP,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100338656",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "NUEiqbdiw"
+    },
+    {
+        currencyName: "Polish Zloty",
+        currencyCode: "PLN",
+        currencySymbol: "zł",
+        currencySymbol: 10,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,SEK,SGD,USD,ZAR,",
+        "publicToken": "106719883",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "VB Autopayment"
+    },
+    {
+        currencyName: "Polish Zloty",
+        currencyCode: "PLN",
+        currencySymbol: "zł",
+        currencySymbol: 10,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,SEK,SGD,USD,ZAR,",
+        "publicToken": "106719520",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "VB Autopay"
+    },
+    {
+        currencyName: "Polish Zloty",
+        currencyCode: "PLN",
+        currencySymbol: "zł",
+        currencySymbol: 10,
+        isActive: true,
+        isMvc: false,
+        "balance": 412.33,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,SEK,SGD,USD,ZAR,",
+        "publicToken": "106719498",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Exchange PLN to GBP"
+    },
+    {
+        currencyName: "Polish Zloty",
+        currencyCode: "PLN",
+        currencySymbol: "zł",
+        currencySymbol: 10,
+        isActive: true,
+        isMvc: false,
+        "balance": 1647.94,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,SEK,SGD,USD,ZAR,",
+        "publicToken": "102062562",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Test PLN"
+    },
+    {
+        currencyName: "New Zealand Dollar",
+        currencyCode: "NZD",
+        currencySymbol: "N$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,JPY,MXN,NOK,PLN,SEK,SGD,USD,",
+        "publicToken": "107418492",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "NZD TEST O"
+    },
+    {
+        currencyName: "New Zealand Dollar",
+        currencyCode: "NZD",
+        currencySymbol: "N$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 124.58,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,JPY,MXN,NOK,PLN,SEK,SGD,USD,",
+        "publicToken": "101988843",
+        "isDefaultCurrency": true,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "New Zealand Dollar",
+        currencyCode: "NZD",
+        currencySymbol: "N$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,JPY,MXN,NOK,PLN,SEK,SGD,USD,",
+        "publicToken": "107503272",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "Airport Exchange"
+    },
+    {
+        currencyName: "British Pound",
+        currencyCode: "GBP",
+        currencySymbol: "£",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 7075.22,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#163;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,EUR,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100336812",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "gyuDSDC"
+    },
+    {
+        currencyName: "British Pound",
+        currencyCode: "GBP",
+        currencySymbol: "£",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 1181.2,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#163;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,EUR,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100336501",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "tewrdrwe"
+    },
+    {
+        currencyName: "British Pound",
+        currencyCode: "GBP",
+        currencySymbol: "£",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 113.1,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#163;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,EUR,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "100336816",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "NAME TEST"
+    },
+    {
+        currencyName: "Czech Koruna",
+        currencyCode: "CZK",
+        currencySymbol: "Kč",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SEK,SGD,TRY,USD,",
+        "publicToken": "107744520",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Official Use"
+    },
+    {
+        currencyName: "Czech Koruna",
+        currencyCode: "CZK",
+        currencySymbol: "Kč",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SEK,SGD,TRY,USD,",
+        "publicToken": "107747618",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "CZK TEST"
+    },
+    {
+        currencyName: "Swiss Franc",
+        currencyCode: "CHF",
+        currencySymbol: "CHF",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SEK,SGD,TRY,USD,ZAR,",
+        "publicToken": "106714633",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "jhciujkdw"
+    },
+    {
+        currencyName: "Swiss Franc",
+        currencyCode: "CHF",
+        currencySymbol: "CHF",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 1.02,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SEK,SGD,TRY,USD,ZAR,",
+        "publicToken": "106712230",
+        "isDefaultCurrency": false,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Japanese Yen",
+        currencyCode: "JPY",
+        currencySymbol: "¥",
+        currencySymbol: 22,
+        isActive: true,
+        isMvc: false,
+        "balance": 111470,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#165;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,MXN,NOK,NZD,PLN,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "107436330",
+        "isDefaultCurrency": true,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Japanese Yen",
+        currencyCode: "JPY",
+        currencySymbol: "¥",
+        currencySymbol: 22,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#165;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,MXN,NOK,NZD,PLN,SEK,SGD,THB,TRY,USD,ZAR,",
+        "publicToken": "107912416",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "wewqe"
+    },
+    {
+        currencyName: "United Arab Emirates Dirham",
+        currencyCode: "AED",
+        currencySymbol: "AED",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AUD,CAD,CHF,CZK,DKK,EUR,GBP,HKD,JPY,NOK,NZD,PLN,SAR,SEK,SGD,USD,ZAR,",
+        "publicToken": "106685131",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Second"
+    },
+    {
+        currencyName: "United Arab Emirates Dirham",
+        currencyCode: "AED",
+        currencySymbol: "AED",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AUD,CAD,CHF,CZK,DKK,EUR,GBP,HKD,JPY,NOK,NZD,PLN,SAR,SEK,SGD,USD,ZAR,",
+        "publicToken": "102065972",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "dbshbk"
+    },
+    {
+        currencyName: "Bulgarian Lev",
+        currencyCode: "BGN",
+        currencySymbol: "лв",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "EUR,GBP,USD,",
+        "publicToken": "107503264",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "bdu"
+    },
+    {
+        currencyName: "US Dollar",
+        currencyCode: "USD",
+        currencySymbol: "$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 32.27,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": true,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,BGN,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,ILS,JPY,MXN,NOK,NZD,PLN,QAR,RON,SAR,SEK,SGD,THB,TRY,ZAR,",
+        "publicToken": "106726292",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "TEST"
+    },
+    {
+        currencyName: "Danish Krone",
+        currencyCode: "DKK",
+        currencySymbol: "kr",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#107;&#114;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,EUR,GBP,HKD,HUF,JPY,NOK,NZD,PLN,SEK,SGD,USD,ZAR,",
+        "publicToken": "107573740",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "DKK TEST"
+    },
+    {
+        currencyName: "Norwegian Krona",
+        currencyCode: "NOK",
+        currencySymbol: "kr",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#107;&#114;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,NZD,PLN,SEK,SGD,USD,ZAR,",
+        "publicToken": "106165839",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "Nok Test"
+    },
+    {
+        currencyName: "Saudi Arabian Riyal",
+        currencyCode: "SAR",
+        currencySymbol: "﷼",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AED,CAD,EUR,GBP,USD,",
+        "publicToken": "102010164",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "jbbkdbc s"
+    },
+    {
+        currencyName: "Australian Dollar",
+        currencyCode: "AUD",
+        currencySymbol: "A$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SEK,SGD,THB,USD,ZAR,",
+        "publicToken": "107466276",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "AUS TEST"
+    },
+    {
+        currencyName: "Israeli New Sheqel",
+        currencyCode: "ILS",
+        currencySymbol: "₪",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "EUR,GBP,USD,",
+        "publicToken": "107542865",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "ILS TEST"
+    },
+    {
+        currencyName: "Singapore Dollar",
+        currencyCode: "SGD",
+        currencySymbol: "$",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 101.15,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,NOK,NZD,PLN,SEK,USD,",
+        "publicToken": "108702406",
+        "isDefaultCurrency": true,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Hungarian Forint",
+        currencyCode: "HUF",
+        currencySymbol: "Ft",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#70;&#116;",
+        "exchangeSupportedCurrencies": "AUD,CAD,CHF,CZK,DKK,EUR,GBP,HKD,JPY,NOK,PLN,SEK,SGD,USD,ZAR,",
+        "publicToken": "107573742",
+        "isDefaultCurrency": true,
+        "currencyAccountName": "ABCD"
+    },
+    {
+        currencyName: "Romanian Leu",
+        currencyCode: "RON",
+        currencySymbol: "lei",
+        currencySymbol: 22,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#108;&#101;&#105;",
+        "exchangeSupportedCurrencies": "EUR,GBP,USD,",
+        "publicToken": "102000105",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Test RON"
+    },
+    {
+        currencyName: "South African Rand",
+        currencyCode: "ZAR",
+        currencySymbol: "R",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#82;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,PLN,SEK,USD,",
+        "publicToken": "102049631",
+        "jjij": true,
+        "currencyAccountName": "Private Account"
+    },
+    {
+        currencyName: "Thai Baht",
+        currencyCode: "THB",
+        currencySymbol: "฿",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 672.36,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "AUD,EUR,GBP,USD,",
+        "publicToken": "102041063",
+        "isDefaultCurrency": true,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Qatari Riyal",
+        currencyCode: "QAR",
+        currencySymbol: "﷼",
+        currencySymbol: 2,
+        isActive: true,
+        isMvc: false,
+        "balance": 67.04,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "EUR,GBP,USD,",
+        "publicToken": "101995721",
+        "isDefaultCurrency": false,
+        "currencyAccountName": "Test QAR"
+    },
+    {
+        currencyName: "Canadian Dollar",
+        currencyCode: "CAD",
+        currencySymbol: "C$",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SAR,SEK,SGD,USD,ZAR,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Chinese Yuan Renminbi",
+        currencyCode: "CNY",
+        currencySymbol: "¥",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#165;",
+        "exchangeSupportedCurrencies": "AUD,CAD,CHF,DKK,EUR,GBP,HKD,JPY,NOK,NZD,PLN,SEK,SGD,USD,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Hong Kong Dollar",
+        currencyCode: "HKD",
+        currencySymbol: "H$",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HUF,JPY,NOK,NZD,PLN,SEK,SGD,USD,ZAR,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Mexican Peso",
+        currencyCode: "MXN",
+        currencySymbol: "M$",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#36;",
+        "exchangeSupportedCurrencies": "AUD,CAD,CHF,CZK,EUR,GBP,JPY,NZD,PLN,SEK,USD,ZAR,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Swedish Krona",
+        currencyCode: "SEK",
+        currencySymbol: "kr",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "&#107;&#114;",
+        "exchangeSupportedCurrencies": "AED,AUD,CAD,CHF,CNY,CZK,DKK,EUR,GBP,HKD,HUF,JPY,MXN,NOK,NZD,PLN,SGD,USD,ZAR,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    },
+    {
+        currencyName: "Turkish Lira",
+        currencyCode: "TRY",
+        currencySymbol: "TRY",
+        currencySymbol: 2,
+        isActive: false,
+        isMvc: false,
+        "balance": 0,
+        "isBankTransferCurrency": true,
+        "isLoadCurrency": false,
+        "htmlCode": "",
+        "exchangeSupportedCurrencies": "CHF,CZK,EUR,GBP,JPY,USD,",
+        "publicToken": "",
+        "isDefaultCurrency": null,
+        "currencyAccountName": ""
+    }
+]
+
+// let isActive = [];
+// let isMVC = [];
+// let multiple = [];
+// let singal = [];
+
+
+// let a = [1,2,3]
+// console.log("c",c)
+let a , b ,c
+[one,b ,c] = [1,2,3]
+// console.log("first",)
+
+// let on = [
+//     {
+//         no : {
+//             firs : "1",
+//             seco : "2"
+//         }
+//     }
+// ]
+ 
+
+// let res = []
+// for( i = 0; i < on.length ; i++)
+// {
+//     console.log(on[i].no.firs)
+
+// }
+
+// console.log("on",on.forEach((item) => console.log(item.no)))
+
+
+// for(i = 0 ; i < a.length && i < b.length ; i++)
+// {
+//     console.log("a" , a[i] ,  "b" , b[i])
+// }
+// getActiveCurriencsWithFilter = (data) =>{
+//     let CurrSet = new Set()
+//     let returnData = []
+//     let other = {type: "single", list:[]}
+//     let singleMVC = null
+//     // console.log("currset before",CurrSet)
+//      let arr = data.forEach((item) => CurrSet.add(item.currencyCode))
+//      console.log("for",CurrSet)
+//     // console.log("currset after",CurrSet)
+//     for (const item of CurrSet) {
+//       let arr = data.filter((curr) => curr.currencyCode === item)
+//       console.log("item---->",arr)
+//       if(arr.length > 1){
+//         let currItemData = {
+//         type:'multi',
+//         currencyCode: item,
+//         list: arr.sort((a, b) => (b.isDefaultCurrency - a.isDefaultCurrency)).sort((a, b) => (b.isMvc - a.isMvc))
+//         ,currencySymbol: arr[0].currencySymbol, 
+//         total: (arr.reduce((curr,prev)=> Number(curr) + Number(prev.balance),0)).toFixed(2)}
+//         // console.log("currItemData",currItemData)
+//         returnData.push(currItemData)
+//       }else{
+//         if(arr[0].isMvc){
+//           singleMVC = {type:'multi',currencyCode: item, list : arr,currencySymbol: arr[0].currencySymbol, total: arr[0].balance}
+//         }else{
+//           other.list.push(arr[0])
+//         }
+//       }
+//     }
+//     if(singleMVC !== null){
+//       if(returnData.length === 0){
+//         other.list.unshift(singleMVC.list[0])
+//       }else {
+//         returnData.unshift(singleMVC)
+//       }
+//     }
+//     returnData.push(other)
+//     return returnData
+//   }
+//   getActiveCurriencsWithFilter(data)
+
+
+// let Array = [33,45,23,78,90,56];
+// let Arraytwo = [1,2,4]
+// let item  = 45;
+// let storeVal = null;
+// for(i=0;i<Array.length;i++)
+// var dd  = [];
+// {
+//     // console.log("ddd", Array[i])
+//     for(j=0;j<Arraytwo.length;j++)
+//     {
+//         console.log("bbbbbbb", Array[j])
+//         if(i === Arraytwo.length)
+//         {
+//                 break;
+//             }
+//             console.log("in")
+//             dd = j + i
+//         }
+// console.log("Conact------>", dd)
+// }
+
+
+//merged array useing while looping;
+
+
+
+// let Array1 = [1, 2, 3, 4, 5,56]
+// let Array2 = [10,11,12,13,14,42]
+// let Array3 = []
+// let d1 = 0;
+// let d2 = 0;
+// let d3 = 0;
+
+// while(d1 < Array1.length && d2 < Array2.length) {
+// if(Array1[d1] < Array2[d2])
+// {
+//     Array3[d3]=Array1[d1];
+//     d1++;
+// } else 
+// {
+//     Array3[d3]=Array2[d2];
+//     d2++;
+// }
+//     d3++;
+// }
+// console.log("Array",Array3)
+
+
+
+// let Arr1 = [1,2,4];
+// let Arr2 = [6,7,8];
+// let MergeArray = [];
+// for(let i = 0; i < Arr1.length; i++) {
+//     MergeArray[i] = Arr1[i]
+// }
+// for(let j = 0; j < Arr2.length; j++) {
+//     MergeArray[Arr1.length+j] = Arr2[j]
+// }
+// console.log("mer",MergeArray)
+
+
+
+//insert new element in array;
+
+// let Array = [2,4,5,6,8]
+// let insertIndex = 2;
+// let insertValue = 64;
+
+// for (let i = 0; i < insertIndex; i++)
+// {
+//     if(i = insertIndex)
+//     {
+//         //inserting a new value at the end of the array
+//         Array[i+3] = insertValue;
+//     }           
+// }
+// //if you want to delete the element from the array then you can do to shift the element at the end of 
+// Array.length  = Array.length - 1;
+// console.log(Array);
+
+
+
+
+
+//Draw the pattern useing javascript
+//*
+//**
+//***
+// for(let i=1; i <= 3 ; i++) {
+//     for(let j=i ; j <= i ; j++) {
+//         document.write("*")
+//     }
+//     document.write("<br/>")
+// }
+
+
+// let see = [4, 30, 12, 25 , 34 , 21 ,34 ,1 , 5 , 2];
+
+// for (let i = 0; i < see.length; i++) {
+//   for (let j = 0; j < see.length; j++) {
+//     if(see[j] > see[j+1])
+//     {
+//         let temp = see[j] // 40
+//         see[j] = see[j+1]; //30
+//         see[j+1] = temp; // 40
+//     }
+// }
+// }
+// see.length = see.length - 1;
+// console.log(see);
+
+// sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
+
+// for(var i=0; i<sentences.length; i++)
+// {
+//     // console.log(sentences[i])
+// }
+
+
+// const array = ["hello ram", "gan"];
+
+// for (let i = 0; i < array.length; i++) {
+//   const currentString = array[i];
+  
+//   for (let j = 0; j < currentString.length; j++) {
+//     console.log(`Index ${j} of string '${currentString}'`);
+//   }
+// }
+
+
+// function getMaxWords(sentences) {
+//   let maxWords = 0;
+  
+//   for (let i = 0; i < sentences.length; i++) {
+//     const words = sentences[i].split(" "); //check space & find the numbers
+//     const wordCount = words.length;
+//     console.log("word",wordCount)
+    
+//     if (wordCount > maxWords) {
+//       maxWords = wordCount;
+//     }
+//   }
+  
+//   return maxWords;
+// }
+
+// const sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
+// const maxWordCount = getMaxWords(sentences);
+// console.log("Maximum number of words in a single sentence:", maxWordCount);
+// Th
+
+
+// getCurrency = (data) => {
+//     // let currCode = []
+
+//     //Iterated currency code
+//     // for(let i = 0 ; i < data.length ; i++) {
+//     //     if(data[i].currencyCode)
+//     //     {
+//     //         currCode.push(data[i].currencyCode)
+//     //     }
+//     }
+    
+//     //Set duplicated currency into set data structure
+
+//     const duplicateCurrCode = new Set();
+//   let ARR =  data.forEach((item) => duplicateCurrCode.add(item.currencyCode))
+    
+//     for(const item of duplicateCurrCode)
+//     {
+//         let arr = data.filter((item) => item.currencyCode === item)
+//         // debugger
+//         console.log("&&&&&&&",arr)
+//         if(arr.length > 1)
+//         {
+//         let currItemData = {
+//         type:'multi',
+//         currencyCode: item,
+//         list: arr.sort((a, b) => (b.isDefaultCurrency - a.isDefaultCurrency)).sort((a, b) => (b.isMvc - a.isMvc))
+//         ,currencySymbol: arr[0].currencySymbol, 
+//         total: (arr.reduce((curr,prev)=> Number(curr) + Number(prev.balance),0)).toFixed(2)}
+//         }
+//         else
+//         {
+//             console.log("second")
+//         }
+//     }
+
+    //Filtered currency array
+    // let multipleCurrencies = data.filter((item) => console.log(item.currencyCode == duplicateCurrCode))
+    // let filterArray = [];
+//    for(j = 0 ; j < data.length; j++) {
+//         if(data[j].currCode == duplicateCurrCode)
+//         {
+//            let arr = filterArray.push(data[j].currencyCode === duplicateCurrCode)
+//            console.log("multiple currencies",filterArray)
+//         }
+//     }
+
+// getCurrency(data)
+// console.log("isActive", isActive)
+// console.log("isMVC", isMVC)
+
+</script>.
+</body>
+</html>
