@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//Remove element from array
+//Input-[2,5,7,8,9]
+
+const removeElement = (item , removeEleindex) => {
+    let removeIndex = null;
+    if(removeEleindex == 7)
+    {
+        for(i = 0 ; i < arr.length ; i++)
+        {
+            if(arr[i] == 7)
+            {
+                removeIndex = i //store the index into the remove Index
+            }
+        }
+    }
+    if(removeIndex !== null)
+    {
+        for(i = removeIndex; i < arr.length; i++)
+        {
+            arr[i] = arr[i+1]; //Moving the index towards R.H.S side of array
+        }
+    }
+    arr.length = arr.length - 1; //After move removeing the given index
+}
+let arr = [2,5,7,8,9]
+removeElement(arr , 7)
+console.log("arr",arr)
+//[output]-[2,5,8,9]
+
+// Insert element into array
+
+const insertElement = ((item , index) => {
+    if(index == 3)
+    {
+        for(i = 0 ; i < item.length ; i++)
+        {
+            if(i == 3)
+            {
+                item[i] = 5;
+            }
+        }
+    }
+})
+let insertArr = [2,6,8,9,0]
+let index = 3
+insertElement(insertArr , index)
+console.log("insertArray",insertArr)
+// [output] // [2,6,8,5,0]
+
+//Swapping of two number
+
+const swapNumber = ((item , indexswapArr) => {
+    if(item !== null && indexswapArr)
+    {   
+        for(i = 0 ; i < item.length ; i++)
+        {
+            if(i == indexswapArr)
+            {
+                firstIndex = item[i] //Storing 7 into firstIndex
+                item[i] = item[i+1] //Storing 8 into  item[i] it means firstIndex [7]
+                item[i+1] = firstIndex //Now we are storing 7 into item[i+1] second index 
+            }
+        }
+    }
+})
+
+let swapArr = [2,6,7,8,9,1]
+let indexswapArr = 2
+swapNumber(swapArr , indexswapArr)
+console.log("swapNumber",swapArr)
+//[output] - [2,6,8,7,9,1]
+
+
+//Find max & min number in array
+
+// const findMaxNumber = ((item) => {
+//     if(item !== null)
+//     {
+//         for(i = 0 ; i < item.length ; i++)
+//         {
+//                item[i] = item[i];
+//                if(item[i] < item[i+1])
+//                {
+//                    item[i] = item[i+1]
+//                 }
+//             }
+//         }
+//     })
+    
+//     let array = [12,34,56,78,43,1]
+//     findMaxNumber(array)
+//     console.log("maxNumber",array)
+
+    </script>
+</body>
+</html>
