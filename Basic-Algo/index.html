@@ -84,24 +84,64 @@ console.log("swapNumber",swapArr)
 
 //Find max & min number in array
 
-// const findMaxNumber = ((item) => {
-//     if(item !== null)
-//     {
-//         for(i = 0 ; i < item.length ; i++)
-//         {
-//                item[i] = item[i];
-//                if(item[i] < item[i+1])
-//                {
-//                    item[i] = item[i+1]
-//                 }
-//             }
-//         }
-//     })
-    
-//     let array = [12,34,56,78,43,1]
-//     findMaxNumber(array)
-//     console.log("maxNumber",array)
 
+    // if(item !== null)
+    // {
+    //     for(i = 0 ; i < item.length ; i++)
+    //     {
+    //            item[i] = item[i];
+    //            if(item[i] < item[i+1])
+    //            {
+    //                i
+    //                item[i] = item[i+1]
+    //             }
+    //         }
+    //     }
+    
+const findMaxNumber = ((item) => {
+    for(i = 0; i < item.length; i++)
+    {
+        for(j = 0; j < item.length; j++)
+        {
+            if(item[i] < item[j]) //loop iteration checks both number conditionally
+            {
+              item[i] = item[j] 
+            }
+        }
+    }
+})
+
+let item = [12,34,223,56,78,2,1]
+findMaxNumber(item)
+let uniquMaxno = new Set(item); //to find duplicate number from array using Set data structure
+console.log("maxNumber",item[0])
+
+const findMinNumber = ((item) => {
+    for(i = 0; i < item.length; i++)
+    {
+        for(j = 0; j < item.length; j++)
+        {
+            if(item[i] > item[j]) //loop iteration checks both number conditionally
+            {
+              item[i] = item[j] 
+            }
+        }
+    }
+})
+
+let array = [12,34,223,56,78,2,1]
+findMinNumber(array)
+let uniquNO = new Set(array); //to find duplicate number from array using Set data structure
+console.log("minNumber",array[0])
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
