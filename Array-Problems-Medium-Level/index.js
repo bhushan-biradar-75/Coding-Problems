@@ -54,3 +54,35 @@ let accumulatingProductItem = [1, 2, 3, 4, 5]; //Passing array by reference
 let accumulatingProductResult = accumulatingProduct(accumulatingProductItem);
 console.log("accumulatingProduct", accumulatingProductResult);
 //[OUTPUT]//➞ [1, 2, 6, 24, 120]
+
+//============================================================================================
+
+// Write a function that takes two integers as arguments and returns the percent difference between them.
+
+// The % difference between two numbers is the absolute value of the difference between the two numbers, divided by the average of those two numbers, multiplied by 100%.
+
+// % difference formula
+
+// Examples
+// percentDiff(60, 100) ➞ 50.0
+
+// percentDiff(100, 60) ➞ 50.0
+
+// percentDiff(4538, 5439) ➞ 18.1
+
+// percentDiff(4538, 5439) ➞ 18.1
+
+const findPercenDiff = (a , b) => {
+    let diffofTwoNO = a - b;
+    let averofTwoNO = (a + b) / 2;
+    let multipliedNo = 100;
+    //After avg & differnce calculation finding percentageDiff
+    let percentageDiff = (diffofTwoNO / averofTwoNO) * multipliedNo;
+    return percentageDiff;
+}
+
+let firstParamNo = 100;
+let secondParamNo = 60;
+let percentDiff = findPercenDiff(firstParamNo,secondParamNo)
+console.log("findPercenDiff",percentDiff)
+//[OUTPUT]//➞ 50;
