@@ -86,5 +86,3 @@ let secondParamNo = 60;
 let percentDiff = findPercenDiff(firstParamNo,secondParamNo)
 console.log("findPercenDiff",percentDiff)
 //[OUTPUT]//➞ 50;
-
-

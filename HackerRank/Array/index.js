@@ -27,14 +27,36 @@
 // Input - [1 4 3 2]
 // Output - [2 3 4 1]
 
-function reverseArray(a) {
-    let newArray = [];
-    for(let i = a.length - 1; i >= 0; i--)
+// function reverseArray(a) {
+//     let newArray = [];
+//     for(let i = a.length - 1; i >= 0; i--)
+//     {
+//         newArray[newArray.length] = a[i];
+//     }
+//     return newArray;
+// }
+// var item = [1,4,3,2]
+// var reverseArray = reverseArray(item)
+// console.log("reverseArray",reverseArray)
+
+function getArray(item) {
+    // console.log(item.length)
+    let maxSum = -63;
+    for(let i = 0; i < 4; i++)
     {
-        newArray[newArray.length] = a[i];
+        for(let j = 0; j < 4; j++)
+        {
+
+            let top = item[i][j] + item[i][j+1] + item[i][j+2]; 
+            console.log("---->",top)
+        }
+        // break;
     }
-    return newArray;
 }
-var item = [1,4,3,2]
-var reverseArray = reverseArray(item)
-console.log("reverseArray",reverseArray)
+
+let TwoDArray = [
+    [1, 1, 1, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0],
+    [1, 1, 1, 0, 0, 0],
+]
+let findHourSum = getArray(TwoDArray) 
